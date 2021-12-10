@@ -9,7 +9,7 @@ import ChatListScreen from './screens/ChatListScreen';
 import ChatScreen from './screens/ChatScreen';
 
 const Stack = createStackNavigator();
-//comentário
+
 export default function App() {
   return (
     <NavigationContainer>
