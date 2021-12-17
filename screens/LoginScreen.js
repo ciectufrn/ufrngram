@@ -24,7 +24,7 @@ export default function LoginScreen({ navigation }) {
     if (response.status === 200) {
       const token = await response.text();
       await AsyncStorage.setItem('token', token);
-      navigation.navigate('HomeScreen');
+      navigation.navigate('LoggedTabNavigator');
     } else {
       Alert.alert(
         'Erro',
